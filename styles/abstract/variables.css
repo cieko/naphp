@@ -1,0 +1,20 @@
+:root
+{
+
+    --bg-color: #F5F5F5;
+    --white: #f3ffdf;
+    --dark: #0d2b17;
+    --black: #131313;
+    --theme-light: #ca6c3c;
+    --theme: #923B10;
+    --theme-dark: #632303;
+
+    --secondary: #778B7F;
+    --secondary-dark: #2c312e;
+
+    --error: rgb(173, 2, 2);
+    --text-body: rgb(54, 49, 61);
+    --detail-medium-contrast: rgb(234, 234, 234);
+    --text-high-contrast-rgb-value: 49, 49, 49;
+    --detail-high-contrast: rgb(192, 192, 192);
+}

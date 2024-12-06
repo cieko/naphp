@@ -1,0 +1,25 @@
+@import 'abstract/font.css';
+@import 'abstract/reset.css';
+@import 'abstract/variables.css';
+@import 'abstract/utils.css';
+
+@import 'base/base.css';
+@import 'base/scrollbar.css';
+@import 'base/typography.css';
+
+@import 'layout/navbar.css';
+@import 'layout/footer.css';
+
+@import 'components/product-card.css';
+@import 'components/blog-card.css';
+@import 'components/recipe-card.css';
+@import 'components/card-carousel.css';
+@import 'components/recipe-flex-card.css';
+
+@import 'pages/home.css';
+@import 'pages/products.css';
+@import 'pages/contact.css';
+@import 'pages/about.css';
+@import 'pages/legal.css';
+
+@import 'vendor/embla.css';

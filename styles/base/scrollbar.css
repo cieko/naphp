@@ -1,0 +1,6 @@
+
+
+html {
+    scrollbar-width: thin;
+    scrollbar-color: var(--theme) #f1f1f1;
+}
