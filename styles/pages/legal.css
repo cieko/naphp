@@ -1,0 +1,40 @@
+#legal #banner {
+
+    height: 25vh;
+    width: 100%;
+    background-color: var(--theme-dark);
+}
+
+#legal #banner {
+    height: 25vh;
+    width: 100%;
+    background-color: var(--theme-dark);
+}
+
+#legal .content {
+    padding: 3rem 7rem;
+
+    min-height: 65vh;
+
+    overflow: hidden !important;
+}
+
+@media screen and (max-width: 1024px) {
+    #legal .content {
+        padding: 3rem 4rem;
+    }
+
+    #legal .content h1 {
+        font-size: 25px;
+    }
+
+    #legal .content h5 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    #legal .content {
+        padding: 3rem 1rem;
+    }
+}

@@ -1,0 +1,82 @@
+#metal,
+#wood {
+    min-height: 100vh;
+    width: 100%;
+}
+
+#metal #banner,
+#wood #banner {
+    height: 25vh;
+    width: 100%;
+    background-color: var(--theme-dark);
+}
+
+#metal .content,
+#wood .content {
+    padding: 3rem 7rem;
+}
+
+@media screen and (max-width: 1024px) {
+    #metal .content,
+    #wood .content {
+        padding: 3rem 4rem;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    #metal .content,
+    #wood .content {
+        padding: 3rem 1rem;
+    }
+}
+
+#metal .content .cards,
+#wood .content .cards {
+    margin-top: 2rem;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media screen and (max-width: 1140px) {
+    #metal .content .cards,
+    #wood .content .cards {
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #metal .content .cards,
+    #wood .content .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+#metal .content .browse-btn,
+#wood .content .browse-btn {
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 2rem;
+}
+
+#metal .content .browse-btn .browse-product-btn,
+#wood .content .browse-btn .browse-product-btn {
+    font-size: 1rem;
+    color: var(--white);
+    background-color: var(--theme-dark);
+
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+

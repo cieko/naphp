@@ -1,0 +1,58 @@
+#about {
+    min-height: 100vh;
+    width: 100%;
+}
+
+#about #banner {
+    height: 25vh;
+    width: 100%;
+    background-color: var(--theme-dark);
+}
+
+#about .content {
+    padding: 3rem 7rem;
+
+    min-height: 65vh;
+    position: relative;
+}
+
+#about .content img {
+    position: absolute;
+
+    top: 50px;
+    left: 100px;
+
+    width: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+    #about .content {
+        padding: 3rem 4rem;
+    }
+
+    #about .content h1 {
+        font-size: 25px;
+    }
+
+    #about .content h5 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    #about .content {
+        padding: 3rem 1rem;
+    }
+}
+
+#about .content button {
+    background-color: var(--theme-dark);
+    color: var(--white);
+
+    font-size: 1rem;
+
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+
+    margin-top: 3rem;
+}
